@@ -1,0 +1,34 @@
+.videoItem{
+    padding-bottom:0.7em;
+    cursor: pointer;
+}
+.videoItemGrid{
+    flex:1 1 14rem;
+    max-width: 17rem;
+}
+
+.videoItemGrid .thumbnail-img{
+    width: 100%;
+    margin-bottom: 0.7rem;
+    padding:0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.descriptionBox{
+    padding: 0.2rem;
+    color: var(--color-light-gray);
+    font-size:0.7rem
+}
+.videoTitle{
+    color: #fff;
+    font-size: 0.7rem;
+    margin-bottom:0.8em;
+    font-weight: 400;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+.channelTitle{
+    font-size: 0.5rem;
+    color: var(--color-light-blue);
+}
