@@ -34,3 +34,23 @@ body{
   margin-left: 4rem;
   margin-top: 2.7rem;
 }
+.list{
+  padding:1.5rem 0 0 3rem;
+}
+.content{
+  display:flex;
+  margin-top: 2.7rem;
+}
+.watchList {
+  display: flex;
+  padding-left: 0;
+  flex:1 1 35%;  
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width:680px) { 
+  .content{
+    flex-direction:column;
+    margin-top: 3rem;
+  }
+}
